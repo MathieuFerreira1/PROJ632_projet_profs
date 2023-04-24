@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
 # ouverture du driver sur le site de Polytech
-login = ['femathie', 'Mf061102?intranet']
+login = ['mettre le login', 'mettre le mot de passe'] #entrer le login et mdp
 driver = webdriver.Chrome()
 website = 'https://www.polytech.univ-smb.fr/'
 driver.get(website)
